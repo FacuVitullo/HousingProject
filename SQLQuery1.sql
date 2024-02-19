@@ -1,4 +1,4 @@
--- Standarize the SaleDate column.
+-- Standarize the SaleDate column  
 
 SELECT SaleDateConverted, CONVERT(Date, SaleDate)
 from Housing
